@@ -1,10 +1,10 @@
 package »ó¼Ó;
 
 public class Employee {
-	String name;
+	public String name;
 	String address;
-	int salary;
-	int rrn;
+	protected int salary;
+	private int rrn;
 
 	@Override
 	public String toString() {
